@@ -1,0 +1,27 @@
+Name: Nathan Mikhail
+ID #: 1544835, 1538365
+Personal Project
+Project: Gravity Simulator
+
+This program uses ideal physics equations to calculate and graphically simulate
+the actions of a free falling ball, based on user defined initial conditions.
+
+In this program, a vector upwards is considered to be positive, and a vector
+downwards is considered to be negative
+
+This program utilizes "pygame", which must be installed on users computer
+to ensure proper functionality of the the program
+
+To Run:
+  *In the proper directory in the command line, run the program using the
+   command "python3 gravity.v2.py <INITIAL DISTANCE> <ACCELERATION> <INITIAL VELOCITY> "
+   where <INITIAL DISTANCE> is the initial distance in meters from the ground
+   to the ball. <ACCELERATION> is a constant acceleration for the program in
+   meters per second squared, and <INITIAL VELOCITY> is the initial velocity of
+   the ball in meters per second.
+
+   *All three values must be present for the program to run properly
+
+Included Files:
+  *gravity.v2.py
+  *README
