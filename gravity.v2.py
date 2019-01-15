@@ -3,8 +3,8 @@ import sys
 from math import sqrt
 import time
 """
-In this program, a vector upwards is considered to be positive, and a vector
-downwards is considered to be negative
+In this program, a vector upwards is considered to be positive, and a 
+vector downwards is considered to be negative
 """
 pygame.init()
 
@@ -53,8 +53,8 @@ def the_time():
         based on the quadratic equation
 
     Returns:
-        time_taken (float): The time taken for the ball to reach the ground based
-                            on physics formuals
+        time_taken (float): The time taken for the ball to reach the ground 
+        based on physics formuals
     """
     if ACCELERATION > 0:
         time1 = ((-INITIAL_VELOCITY) + sqrt((INITIAL_VELOCITY**2)
